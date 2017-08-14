@@ -4,3 +4,4 @@ const app = express()
 app.use(express.static('public'))
 
 const server = app.listen(80)
+console.log('listening at 80')
